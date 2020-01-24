@@ -1,0 +1,28 @@
+.estilo_jumbotron{
+  margin-left: 10%;
+  margin-right: 10%;
+  background: url('../assets/jumbotron/j1.jpg') no-repeat fixed center;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.estilo_texto_jumbotron{
+  background-color: rgba(250, 250, 250, 0.60);
+}
+
+.espacio_superior{
+  margin-top: 100px !important;
+  margin-bottom: 100px;
+}
+
+.estilo_imagen_card{
+  width: 100%;
+  height: 250px;
+}
+
+.estilo_body_card{
+  background-color: rgb(250, 250, 246)!important;
+}
+
+.estilo_footer_card{
+  background-color: rgb(247, 246, 234)!important;
+}

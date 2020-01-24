@@ -1,0 +1,18 @@
+.color-letra{
+  color: #449d90;
+}
+
+.contenedor{
+    text-align:center
+}
+.izquierda{
+    float: left;
+    margin-left: 5%;
+}
+.derecha{
+    float: right;
+    margin-right: 5%;
+}
+.centro{
+   display:inline-block
+}

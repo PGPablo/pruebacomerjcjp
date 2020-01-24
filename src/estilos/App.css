@@ -1,0 +1,68 @@
+.App-content{
+  background-color: #212F3C;
+}
+
+.renglon{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color_contbar{
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* usar */
+.estilo_letra_Raleway{
+  font-family: 'Raleway', sans-serif;
+}
+/* quiza usar */
+.estilo_letra_Baskervville{
+  font-family: 'Baskervville', serif;
+}
+/* usar en titulos */
+.estilo_letra_Cinzel{
+  font-family: 'Cinzel', serif;
+}
+/* usar */
+.estilo_letra_Dancing{
+  font-family: 'Dancing Script', cursive;
+}
+/* usar */
+.estilo_letra_Gruppo{
+  font-family: 'Gruppo', cursive;
+}
+/* usar */
+.estilo_letra_Sans{
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* usar */
+.estilo_letra_Slab{
+  font-family: 'Josefin Slab', serif;
+}
+/* usar */
+.estilo_letra_Montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+/* usar */
+.estilo_letra_Bellefair{
+  font-family: 'Bellefair', serif;
+}
+
+.estilo_letra_Scope{
+  font-family: 'Scope One', serif;
+}
+
+.estilo_letra_Poiret{
+  font-family: 'Poiret One', cursive;
+}
+
+.estilo_letra_Pompiere{
+  font-family: 'Pompiere', cursive;
+}
+
+
+
+.color_fondo{
+
+}

@@ -1,0 +1,33 @@
+.estilo-top{
+  background-color: #ffffff;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  color: #FFFFFF;
+}
+
+.estilo-bot{
+  background-color: #90f4d3;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  color: #FFFFFF;
+}
+
+.phantom{
+  display: block;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+}
+
+.formato_icono{
+  height: 100px;
+  width: 100px;
+  margin-right: 10%;
+  margin-left: 10%;
+}

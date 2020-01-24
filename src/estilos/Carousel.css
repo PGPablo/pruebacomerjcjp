@@ -1,0 +1,38 @@
+.centrar_carousel{
+  text-align: center;
+
+}
+
+.img_carousel{
+  height: 500px;
+}
+
+.container-carousel{
+  margin-left: 1% !important;
+  width: 60%;
+}
+
+.tamaño_card_inicio{
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 345px;
+  height: 355px;
+}
+.tamaño_card_imagen_inicio{
+  height: 150px;
+}
+
+@media only screen and (max-width: 700px) {
+  .img_carousel{
+    height: 350px;
+  }
+  .container-carousel{
+    margin-left: 1%;
+    width: 100%;
+  }
+  .tamaño_card_inicio{
+    margin: 6%;
+    width: 100%;
+    height: auto;
+  }
+}
