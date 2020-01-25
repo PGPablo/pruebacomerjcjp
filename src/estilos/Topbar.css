@@ -3,15 +3,11 @@
 }
 
 .contenido_inicial{
-  background-color: #000000 !important;
+  background-color: #ffffff !important;
 }
 
 .color_barra{
   opacity: 0.8;
-}
-
-.contenido_central{
-  background-color: #FFFFFF !important;
 }
 
 .logo_topbar{
@@ -28,7 +24,7 @@
 }
 
 .letras_menu{
-  color: #ffffff !important;
+  color: #08a48d !important;
 }
 
 .letras_menu_1:hover{

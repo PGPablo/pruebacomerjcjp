@@ -13,54 +13,37 @@
 }
 
 /* usar */
-.estilo_letra_Raleway{
-  font-family: 'Raleway', sans-serif;
+.estilo_letra_Open_Sans_Condensed{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 /* quiza usar */
-.estilo_letra_Baskervville{
-  font-family: 'Baskervville', serif;
+.estilo_letra_Abel{
+  font-family: 'Abel', sans-serif;
 }
 /* usar en titulos */
-.estilo_letra_Cinzel{
-  font-family: 'Cinzel', serif;
+.estilo_letra_Montserrat_Alternates{
+  font-family:  'Montserrat Alternates', sans-serif;
 }
 /* usar */
-.estilo_letra_Dancing{
-  font-family: 'Dancing Script', cursive;
-}
-/* usar */
-.estilo_letra_Gruppo{
-  font-family: 'Gruppo', cursive;
-}
-/* usar */
-.estilo_letra_Sans{
-  font-family: 'Josefin Sans', sans-serif;
-}
-/* usar */
-.estilo_letra_Slab{
-  font-family: 'Josefin Slab', serif;
-}
-/* usar */
-.estilo_letra_Montserrat{
-  font-family: 'Montserrat', sans-serif;
-}
-/* usar */
-.estilo_letra_Bellefair{
-  font-family: 'Bellefair', serif;
-}
-
-.estilo_letra_Scope{
-  font-family: 'Scope One', serif;
-}
-
-.estilo_letra_Poiret{
+.estilo_letra_Poiret_One{
   font-family: 'Poiret One', cursive;
 }
-
+/* usar */
+.estilo_letra_Julius_Sans_One{
+  font-family: 'Julius Sans One', sans-serif;
+}
+/* usar */
+.estilo_letra_Bungee_Hairline{
+  font-family: 'Bungee Hairline', cursive;
+}
+/* usar */
 .estilo_letra_Pompiere{
   font-family: 'Pompiere', cursive;
 }
-
+/* usar */
+.estilo_letra_Athiti{
+  font-family: 'Athiti', sans-serif;
+}
 
 
 .color_fondo{
