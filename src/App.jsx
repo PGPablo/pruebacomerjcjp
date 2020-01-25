@@ -10,6 +10,8 @@ import Home from './componentes/inicio/Cont_inicio'
 import About from './componentes/nosotros/About'
 import Servicios from './componentes/servicios/Servicios'
 import Sector from './componentes/sector/Sector'
+import ContactUs from './componentes/contacto/emailjs'
+import Ventas from './componentes/ventas/Ventas'
 
 
 
@@ -36,6 +38,9 @@ class App extends Component {
             <Route path="/about" component={About}/>
             <Route path="/services" component={Servicios}/>
             <Route path="/sector" component={Sector}/>
+            <Route path="/contact" component={ContactUs}/>
+            <Route path="/sales" component={Ventas}/>
+
           </Router>
         </div>
         <br />

@@ -24,7 +24,7 @@ const Topbar = () => (
         <Nav.Link href="/sales" className="letras_menu letras_menu_4">Ventas</Nav.Link>
         <Nav.Link href="/sector" className="letras_menu letras_menu_5">Sector agrario</Nav.Link>
         <Nav.Link href="/info" className="letras_menu letras_menu_5">Información trascendental</Nav.Link>
-        <Nav.Link href="/cantact" className="letras_menu letras_menu_5">Contacto</Nav.Link>
+        <Nav.Link href="/contact" className="letras_menu letras_menu_5">Contacto</Nav.Link>
       </Nav>
     </Navbar.Collapse>
 

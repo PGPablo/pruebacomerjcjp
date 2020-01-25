@@ -29,29 +29,6 @@ export default function ContactUs() {
               <Form.Label>Correo electronico</Form.Label>
               <Form.Control type="email" placeholder="Enter email" name="var_correo" required/>
             </Form.Group>
-
-          </Form.Row>
-
-          <Form.Group as={Col}>
-            <Form.Label className="estilo_letra_Gruppo">Télefono</Form.Label>
-            <Form.Control className="estilo_letra_Gruppo" placeholder="461 123 4567" name="var_telefono" required/>
-          </Form.Group>
-
-          <Form.Row>
-            <Form.Group as={Col}>
-              <Form.Label className="estilo_letra_Gruppo">¿En qué servicio estas intersado?</Form.Label>
-              <Form.Control className="estilo_letra_Gruppo" as="select" name="var_servicio">
-                <option>Asesoría Contable - Fiscal</option>
-                <option>Consultoría Administrativa</option>
-                <option>Administración de Negocios</option>
-                <option>Investigación de Mercados</option>
-                <option>Recursos Humanos</option>
-                <option>Asesoría Legal</option>
-                <option>Marketing</option>
-                <option>Asesoría Financiera</option>
-                <option>Capacitación Empresarial</option>
-              </Form.Control>
-            </Form.Group>
           </Form.Row>
 
           <Form.Row>
@@ -59,7 +36,6 @@ export default function ContactUs() {
               <Form.Label className="estilo_letra_Gruppo">¿Quieres dejar algún mensaje? (Opcional)</Form.Label>
               <Form.Control className="estilo_letra_Gruppo" placeholder="Mensaje" name="var_mensaje"/>
             </Form.Group>
-
           </Form.Row>
 
           <Form.Row className="boton_centrado">

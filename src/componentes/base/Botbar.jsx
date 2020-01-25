@@ -20,7 +20,7 @@ const Botbar = () => (
           </div>
           <div className="renglon" >
             <div className="estilo-bot">
-              &copy; {new Date().getFullYear()} Copyright: JRC SIF México
+              © Copyright ComerJC&JP. Todos los derechos reservados.
             </div>
           </div>
         </div>
