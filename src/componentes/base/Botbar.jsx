@@ -10,10 +10,10 @@ const Botbar = () => (
               <a href="https://wa.me/4611262769" className="formato_icono">
                 <FontAwesomeIcon icon={['fab', 'whatsapp']} size="3x" color="#15cc2e"/>
               </a>
-              <a href="https://www.google.com/" className="formato_icono">
+              <a href="https://www.facebook.com/Comercializadora-De-Materiales-Jc-Jp-Sa-De-Cv-435283399851275/" className="formato_icono">
                 <FontAwesomeIcon icon={['fab', 'facebook-f']} size="3x" color="#1a6dc3"/>
               </a>
-              <a href="https://www.google.com/" className="formato_icono">
+              <a href="https://www.instagram.com/comer_jcjp/?hl=es-la" className="formato_icono">
                 <FontAwesomeIcon icon={['fab', 'instagram']} size="3x" color="#d58c2c"/>
               </a>
             </div>

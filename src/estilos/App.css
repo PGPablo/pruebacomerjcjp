@@ -9,12 +9,13 @@
 
 .color_contbar{
   height: 40px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 /* usar */
 .estilo_letra_Open_Sans_Condensed{
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+  font-weight: bold !important;
 }
 /* quiza usar */
 .estilo_letra_Abel{
@@ -30,11 +31,13 @@
 }
 /* usar */
 .estilo_letra_Julius_Sans_One{
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Julius Sans One' !important;
+  font-weight: bold !important;
 }
 /* usar */
 .estilo_letra_Bungee_Hairline{
-  font-family: 'Bungee Hairline', cursive;
+  font-family: 'Bungee Hairline', cursive !important;
+  font-weight: bold !important;
 }
 /* usar */
 .estilo_letra_Pompiere{
@@ -42,10 +45,27 @@
 }
 /* usar */
 .estilo_letra_Athiti{
-  font-family: 'Athiti', sans-serif;
+  font-family: 'Athiti', cursive !important;
+  font-weight: bold !important;
+}
+
+.inlineblock{
+  display: inline-block;
 }
 
 
 .color_fondo{
 
+}
+
+
+@media only screen and (max-width: 700px) {
+  .tamaño-contbar{
+    width: 100%;
+  }
+
+  .renglon{
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
 }

@@ -11,8 +11,8 @@
 }
 
 .logo_topbar{
-  width: 150px;
-  height: 50px;
+  width: 200px;
+  height: 75px;
 }
 
 .posicion_logo{
@@ -44,4 +44,9 @@
 }
 .letras_menu_6:hover{
   color: #a0f2d6 !important;
+}
+
+.estilo_boton_dropdown{
+  background-color: rgb(255, 255, 255) !important;
+  border-color: #ffffff !important;
 }

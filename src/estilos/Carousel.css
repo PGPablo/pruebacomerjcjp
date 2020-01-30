@@ -13,8 +13,8 @@
 }
 
 .tamaño_card_inicio{
-  margin-left: 5%;
-  margin-top: 5%;
+  margin-left: 8%;
+  margin-top: 3%;
   width: 345px;
   height: 355px;
 }
@@ -31,7 +31,8 @@
     width: 100%;
   }
   .tamaño_card_inicio{
-    margin: 6%;
+    margin: 0%;
+    margin-top: 10%;
     width: 100%;
     height: auto;
   }

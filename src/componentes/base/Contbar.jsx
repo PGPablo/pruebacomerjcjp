@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../../estilos/Contbar.css'
 
   const Contbar = () => (
-    <div className="contenedor color-letra estilo_letra_Gruppo">
+    <div className="contenedor color-letra estilo_letra_Julius_Sans_One">
 
       <div className="izquierda">
         <span className="navbar-text">

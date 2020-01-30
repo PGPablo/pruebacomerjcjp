@@ -3,11 +3,17 @@
 }
 
 .titulo_info{
-  
+  background-color: #eaffff;
+  color: #14a2a2;
 }
 
 .subtitulo_info{
+  background-color: #eaffff;
+  color: #14a2a2;
+}
 
+.texto_info{
+  color: #14a2a2;
 }
 
 .estilo_carousel_dos{

@@ -2,3 +2,17 @@
   width: 100%;
   height: auto;
 }
+
+.color_titulo_nosotros{
+  color: rgb(222, 147, 81);
+}
+
+.color_letras_nosotros{
+  color: rgb(152, 80, 0);
+}
+
+@media only screen and (max-width: 700px) {
+
+  
+
+}

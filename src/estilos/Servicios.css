@@ -14,6 +14,11 @@
   margin-bottom: 100px;
 }
 
+.posicion_card{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .estilo_imagen_card{
   width: 100%;
   height: 250px;
@@ -25,4 +30,51 @@
 
 .estilo_footer_card{
   background-color: rgb(247, 246, 234)!important;
+  color: rgb(6, 47, 59) !important;
+}
+
+.estilo_acordion{
+  border-color: rgba(255, 255, 255, 0) !important;
+}
+
+.encabezado_acordion{
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.cuerpo_acordion{
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.color_letra_acordion{
+  background-color: #eaffff !important;
+  color: #031616 !important;
+}
+
+.col_imagen_acordion{
+  width: 47%;
+  margin-right: 2%;
+}
+
+.col_imagen_acordion{
+  width: 50%;
+}
+
+.tamaño_imagen_acordion{
+  padding-right: 5%;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+  .col_imagen_acordion{
+    width: 100%;
+  }
+
+  .col_imagen_acordion{
+    width: 100%;
+  }
 }

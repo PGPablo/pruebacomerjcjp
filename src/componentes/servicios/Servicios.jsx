@@ -1,5 +1,5 @@
 import React from 'react'
-import {Jumbotron, Button, CardDeck, Card, Image}  from 'react-bootstrap'
+import {Jumbotron, Button, CardDeck, Card}  from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import '../../estilos/Servicios.css'
@@ -7,12 +7,6 @@ import '../../estilos/Servicios.css'
 import d3 from '../../assets/cards/d3.jpg'
 import d4 from '../../assets/cards/d4.jpg'
 import d5 from '../../assets/cards/d5.jpg'
-
-import m1 from '../../assets/marcas/m1.png'
-import m2 from '../../assets/marcas/m2.png'
-import m3 from '../../assets/marcas/m3.png'
-import m4 from '../../assets/marcas/m4.png'
-
 
 const Servicios = () => (
 
@@ -24,7 +18,7 @@ const Servicios = () => (
         continua y satisfacer todas y cada una de las necesidades de ustedes, por ello ponemos a su disposición:
       </p>
       <p className="">
-        <Button variant="success center">Contactaros</Button>
+        <Button variant="success center">Contáctanos</Button>
       </p>
     </Jumbotron>
 
@@ -41,7 +35,7 @@ const Servicios = () => (
           </Card.Text>
         </Card.Body>
         <Card.Footer className="estilo_footer_card">
-          <Button variant="outline-success center">Contactaros</Button>
+          <Button variant="outline-success center">Contáctanos</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -61,7 +55,7 @@ const Servicios = () => (
           </Card.Text>
         </Card.Body>
         <Card.Footer className="estilo_footer_card">
-          <Button variant="outline-success center">Contactaros</Button>
+          <Button variant="outline-success center">Contáctanos</Button>
         </Card.Footer>
       </Card>
       <Card>
@@ -85,20 +79,10 @@ const Servicios = () => (
           </Card.Text>
         </Card.Body>
         <Card.Footer className="estilo_footer_card">
-          <Button variant="outline-success center">Contactaros</Button>
+          <Button variant="outline-success center">Contáctanos</Button>
         </Card.Footer>
       </Card>
     </CardDeck>
-
-    <div className="renglon center">
-      <h1>Distribuidores autorizados</h1>
-    </div>
-    <div className="renglon ml-4 mr-4 border shadow">
-      <Image src={m1} thumbnail className="ml-5 mr-4"/>
-      <Image src={m2} thumbnail className="ml-4 mr-4"/>
-      <Image src={m3} thumbnail className="ml-4 mr-4"/>
-      <Image src={m4} thumbnail className="ml-4 mr-4"/>
-    </div>
 
   </div>
 )
