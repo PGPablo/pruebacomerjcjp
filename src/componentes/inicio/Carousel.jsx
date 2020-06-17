@@ -12,9 +12,12 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import '../../estilos/Carousel.css'
 
-import c1 from '../../assets/carousel/c1.jpg'
-import c2 from '../../assets/carousel/c2.jpg'
-import c3 from '../../assets/carousel/c3.jpg'
+import logo from '../../assets/logocomer2.png'
+
+import s1 from '../../assets/carousel/s1.jpg'
+import s2 from '../../assets/carousel/s2.JPG'
+import s3 from '../../assets/carousel/s3.JPG'
+import s4 from '../../assets/carousel/s4.JPG'
 
 import d1 from '../../assets/cards/d1.jpg'
 
@@ -23,29 +26,59 @@ const CarouselInicio = () => (
   <div className="renglon">
 
     <div className="centrar_carousel container-carousel border shadow" >
-    <ScrollAnimation animateIn="rotateInDownLeft" duration="2">
-        <Carousel className=" altura_carousel">
+      <ScrollAnimation animateIn="rotateInDownLeft" duration="2">
+        <Carousel className=" altura_carousel" interval="6000">
           <Carousel.Item>
             <img className="d-block w-100 img_carousel"
-              src={c1}
+              src={s1}
               alt="Third slide"
             />
+            <Carousel.Caption>
+                <ScrollAnimation animateIn="bounceInRight" delay="3000">
+                  <img className="img_carousel_contenido"
+                    src={logo}
+                    alt="logo"
+                  />
+                </ScrollAnimation>
+                <h3>Comercializadora de materiales JC & JP</h3>
+                <p>Calidad en nuestros productos.</p>
+            </Carousel.Caption>
           </Carousel.Item>
+
           <Carousel.Item>
             <img className="d-block w-100 img_carousel"
-              src={c2}
+              src={s2}
               alt="Third slide"
             />
+            <Carousel.Caption>
+                <h3>Nuestra experiencia nos resplada</h3>
+                <p>Y nuestro profesionalismo nos hace trascender.</p>
+            </Carousel.Caption>
           </Carousel.Item>
+
           <Carousel.Item>
             <img className="d-block w-100 img_carousel"
-              src={c3}
+              src={s3}
               alt="Third slide"
             />
+            <Carousel.Caption>
+                <h3>Proyectos de calidad</h3>
+                <p>La satisfacción de nuestros clientes es lo más importante.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img className="d-block w-100 img_carousel"
+              src={s4}
+              alt="Third slide"
+            />
+            <Carousel.Caption>
+                <h3>Permitenos ser parte de tus actividades</h3>
+            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        </ScrollAnimation>
-      </div>
+      </ScrollAnimation>
+    </div>
 
 
     <ScrollAnimation animateIn="bounceInRight">
@@ -58,27 +91,20 @@ const CarouselInicio = () => (
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2" className="estilo_letra_Open_Sans_Condensed">
-              Productos agricolas
+              Productos agrícolas
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p" className="estilo_letra_Julius_Sans_One">
-              Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-              across all continents except Antarctica
+              Contamos con una gran cantidad de productos agrícolas, listos para ser utilizados.
             </Typography>
           </CardContent>
         </CardActionArea>
         <CardActions >
-          <Button size="small" color="primary" className="estilo_letra_Julius_Sans_One">
-            Share
-          </Button>
-          <Button size="small" color="primary" className="estilo_letra_Julius_Sans_One">
-            Learn More
+          <Button href="/info" size="small" color="primary" className="estilo_letra_Julius_Sans_One">
+            Ver más.
           </Button>
         </CardActions>
       </Card>
     </ScrollAnimation>
-
-
-
   </div>
 
 )

@@ -1,0 +1,41 @@
+.estilo_titulo_forrajera{
+	display: inline;
+	text-align: center;
+	color: rgb(42, 138, 141)
+}
+
+.contenedor_card_forrajera{
+    position: relative;
+    display: inline-block;
+	text-align: center;
+	padding-left: 10%;
+	padding-top: 5%;
+}
+ 
+.centrado_card_forrajera{
+	color: #ffffff;
+	font-size: 18px;
+	background-color: #2b2b2b67;
+    position: absolute;
+    top: 62%;
+    left: 62%;
+	transform: translate(-55%, -55%);
+	padding-left: 5%;
+	padding-right: 5%;
+	
+}
+.imagen_card_forrajera{
+	-webkit-filter: opacity(0.8); /* 0.5 = 50% */ 
+	filter : grayscale( 0.3 );
+	width: 450px;
+	height: 250px;
+}
+
+.estilo_contact{
+	padding-top: 3%;
+}
+
+.estilo_mapa{
+	display: inline;
+	text-align: center;
+}

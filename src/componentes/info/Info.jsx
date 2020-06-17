@@ -81,24 +81,31 @@ const Info = () => (
 
 
     <div className="container">
+
+    <ScrollAnimation animateIn="bounceInRight">
       <h2 className="titulo_info w-100 estilo_letra_Open_Sans_Condensed">Logros y actividades</h2> <br />
+    </ScrollAnimation>
+    <ScrollAnimation animateIn="bounceInLeft">
       <h4 className="subtitulo_info estilo_letra_Athiti">
         Buscamos participar, capacitarnos y seguir actualizandonos en
         el sector agroalimentario, ademas de incorporar a nuestros clientes
         a nuestra familia JC & JP.
       </h4><br />
+    </ScrollAnimation>
 
+    <ScrollAnimation animateIn="bounceInLeft">
       <div className="row">
-      <iframe width="560" title="expo_agraria" height="315" src="https://www.youtube.com/embed/8zR_ksPd7p8"
-              frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen className="col-6" ></iframe>
-      <h5 className="col-6 border shadow texto_info estilo_letra_Athiti" >Asistencia a Expo Agroalimentaria
-          Llevadas a cabo en 2015, 2017, 2018 y 2019.
-          Asistencia a 6to Foro Agroalimentario que llevo acabo el consejo estatal, INFORUM Irapuato, GTO.
-          El reajuste de los mercados agropecuarios con la renegociación del TLCAN”, Septiembre 2017.
-      </h5>
-      </div>
+        <iframe width="560" title="expo_agraria" height="315" src="https://www.youtube.com/embed/8zR_ksPd7p8"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen className="col-6" ></iframe>
 
+          <h5 className="col-6 border shadow texto_info estilo_letra_Athiti" >Asistencia a Expo Agroalimentaria
+              Llevadas a cabo en 2015, 2017, 2018 y 2019.
+              Asistencia a 6to Foro Agroalimentario que llevo acabo el consejo estatal, INFORUM Irapuato, GTO.
+              El reajuste de los mercados agropecuarios con la renegociación del TLCAN”, Septiembre 2017.
+          </h5>
+        </div>
+      </ScrollAnimation>
 
     </div>
 

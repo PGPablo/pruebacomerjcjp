@@ -12,12 +12,13 @@ import ServAgricola from './componentes/servicios/ServAgricola'
 import ServArquitectura from './componentes/servicios/ServArquitectura'
 import ServMantenimiento from './componentes/servicios/ServMantenimiento'
 
-
 import Info from './componentes/info/Info'
 import ContactUs from './componentes/contacto/emailjs'
 import Ventas from './componentes/ventas/Ventas'
 
+import Forrajera from './forrajera/componentes/Forrajera'
 
+import CookieConsent from "react-cookie-consent";
 
 import './estilos/App.css'
 
@@ -26,6 +27,16 @@ class App extends Component {
   render() {
     return (
       <div className="App color_fondo">
+      <CookieConsent
+          location="bottom"
+          buttonText="Seguro!"
+          cookieName="myAwesomeCookieName2"
+          style={{ background: "#212F3C" }}
+          buttonStyle={{ color: "#000000", fontSize: "13px", background: "#ffffff", width: "100px" }}
+          expires={150}
+      >
+          Este sitio web puede usar cookies.
+      </CookieConsent>
         <Topbar />
         <header className="App-header color_contbar tamaño-contbar">
           <Contbar />
@@ -46,6 +57,7 @@ class App extends Component {
             <Route path="/info" component={Info}/>
             <Route path="/contact" component={ContactUs}/>
             <Route path="/sales" component={Ventas}/>
+            <Route path="/forrajera" component={Forrajera}/>
 
           </Router>
         </div>

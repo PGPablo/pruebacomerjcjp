@@ -1,7 +1,19 @@
-.estilo_jumbotron{
+.estilo_jumbotron_agricola{
   margin-left: 10%;
   margin-right: 10%;
   background: url('../assets/jumbotron/j1.jpg') no-repeat fixed center;
+  background-color: rgb(255, 255, 255) !important;
+}
+.estilo_jumbotron_arquitectura{
+  margin-left: 10%;
+  margin-right: 10%;
+  background: url('../assets/jumbotron/j2.jpg') no-repeat fixed center;
+  background-color: rgb(255, 255, 255) !important;
+}
+.estilo_jumbotron_mantenimiento{
+  margin-left: 10%;
+  margin-right: 10%;
+  background: url('../assets/jumbotron/j3.jpg') no-repeat fixed center;
   background-color: rgb(255, 255, 255) !important;
 }
 

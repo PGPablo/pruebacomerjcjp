@@ -5,6 +5,13 @@
 
 .img_carousel{
   height: 500px;
+  filter: saturate(180%);
+}
+
+.img_carousel_contenido{
+  width: 40%;
+  height: auto;
+  margin-bottom: 50%;
 }
 
 .container-carousel{

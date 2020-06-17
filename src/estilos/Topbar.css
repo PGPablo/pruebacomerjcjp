@@ -26,24 +26,17 @@
 .letras_menu{
   color: #08a48d !important;
 }
+.letras_menu:hover{
+  color: #a0f2d6 !important;
+}
 
-.letras_menu_1:hover{
-  color: #a0f2d6 !important;
+.boton_forrajera{
+  background-color: hsl(12, 92%, 64%) !important;
+  color: #ffffff !important;
 }
-.letras_menu_2:hover{
-  color: #a0f2d6 !important;
-}
-.letras_menu_3:hover{
-  color: #a0f2d6 !important;
-}
-.letras_menu_4:hover{
-  color: #a0f2d6 !important;
-}
-.letras_menu_5:hover{
-  color: #a0f2d6 !important;
-}
-.letras_menu_6:hover{
-  color: #a0f2d6 !important;
+.boton_forrajera:hover{
+  background-color:#ffffff !important;
+  color: #e63c12 !important;
 }
 
 .estilo_boton_dropdown{

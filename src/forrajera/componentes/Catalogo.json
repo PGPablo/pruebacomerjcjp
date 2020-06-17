@@ -1,0 +1,39 @@
+{
+    "perro": 
+        {
+            "nombre": "Perros",
+            "src": "https://cdn.pixabay.com/photo/2019/02/07/15/08/dog-3981439_960_720.jpg",
+            "productos": 5
+        },
+    "vaca": 
+        {
+            "nombre": "Vacas",
+            "src": "https://www.publicdomainpictures.net/pictures/230000/nahled/cow-15002264115jz.jpg",
+            "productos": 5
+        },
+        "cerdo": 
+        {
+            "nombre": "Cerdo",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRwaeaChhYWY_JJz_pWWcDBTpbeNolhVjC2bZ7bRlke4bdnNX3Z&usqp=CAU",
+            "productos": 5
+        },
+    "aves": 
+        {
+            "nombre": "Aves",
+            "src": "https://p1.pxfuel.com/preview/684/174/424/rooster-chicken-hen-peck.jpg",
+            "productos": 5
+        },
+    "caballo": 
+        {
+            "nombre": "Caballo",
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9d1Jgz8AsBTXqrzHQ0oHn8G8JJoonWBguWgvMBD2zvsdsgdWm&usqp=CAU",
+            "productos": 5
+        },
+    "borrego": 
+        {
+            "nombre": "Borrego",
+            "src": "https://p1.pxfuel.com/preview/924/669/128/bighorn-sheep-herd-mountains-pasture.jpg",
+            "productos": 5
+        }
+    
+}
