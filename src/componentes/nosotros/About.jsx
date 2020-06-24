@@ -30,10 +30,10 @@ const About = () => (
                   <div className="col-6">
                     <div className="containter-fluid">
                       <p className="estilo_letra_Montserrat_Alternates color_letras_nosotros">
-                        Comprometernos con alcanzar los más altos niveles de competitividad y liderazgo,
-                        para lograr posicionarnos en el mercado como una empresa de calidad, innovadora y
-                        con alto sentido de responsabilidad, buscamos proveer de soluciones a nuestros clientes,
-                        contribuyendo a la mejora continua de prestar consultoría y servicios a empresas privadas
+                        Comprometernos con alcanzar altos niveles de competitividad y liderazgo,
+                        para lograr posicionarnos en el mercado como una empresa de calidad y
+                        con alto sentido de responsabilidad, buscamos proveer de soluciones innovadoras a nuestros clientes,
+                        contribuyendo a la mejora continua al prestar consultoría y servicios a empresas privadas
                         y públicas.
                         </p>
                     </div>
@@ -54,8 +54,8 @@ const About = () => (
                   <div className="col-6">
                     <div className="containter-fluid">
                       <p className="estilo_letra_Montserrat_Alternates color_letras_nosotros">
-                        Ser una empresa líder, alcanzando los más altos estándares de calidad,
-                        excelencia, profesionalismo proporcionando soluciones innovadoras para
+                        Ser una empresa líder, alcanzando altos estándares de profesionalismo,
+                        excelencia y calidad proponiendo alternativas innovadoras para
                         impulsar el desarrollo en sector público y privado.
                         </p>
                     </div>
@@ -79,8 +79,8 @@ const About = () => (
                       <p className="estilo_letra_Montserrat_Alternates color_letras_nosotros">
                         <b>Respeto:</b> Ser considerado con los demás, buscando siempre mantener y cuidar nuestra libertad y las de nuestros compañeros.<br /><br />
                         <b>Honestidad:</b> Ser coherentes con los actos y decisiones que tomamos, comprometernos en lograr metas para el bien de la empresa.<br /><br />
-                        <b>Compromiso:</b> Involucrarnos completamente para cumplir con las obligaciones que nos corresponden.<br /><br />
-                        <b>Responsabilidad:</b> Actuar conscientemente poniendo atención a lo que hacemos para desarrollar eficientemente nuestro trabajo.<br /><br />
+                        <b>Compromiso:</b> Involucrarnos para cumplir con las obligaciones que nos corresponden.<br /><br />
+                        <b>Responsabilidad:</b> Actuar poniendo atención a lo que hacemos para desarrollar eficientemente nuestro trabajo.<br /><br />
                       </p>
                     </div>
                   </div>

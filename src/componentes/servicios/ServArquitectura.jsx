@@ -55,7 +55,7 @@ const ServArquitectura = () => (
       </Card.Footer>
     </Card>
 
-    <div className="container border shadow mt-5">
+    <div className="container border shadow mt-5" hidden>
       <h2 className="mt-2 mb-2 estilo_letra_Open_Sans_Condensed">Nuestra experiencia nos respalda.</h2>
       <Accordion defaultActiveKey="0" className="mt-4 mb-4 estilo_acordion">
         <Card className="estilo_acordion">

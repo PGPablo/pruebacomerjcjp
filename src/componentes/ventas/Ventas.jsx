@@ -21,6 +21,8 @@ import m12 from '../../assets/marcas/m12.png'
 import m13 from '../../assets/marcas/m13.png'
 import m14 from '../../assets/marcas/m14.png'
 
+import catalogo from './catalogo.pdf'
+
 
 const Botbar = () => (
       <div className="inlineblock">
@@ -36,7 +38,7 @@ const Botbar = () => (
             disposicion. <b>Te invitamos a que descargues nuestro catalogo.</b>
             </p>
             <p>
-            <Button variant="info">Iniciar descarga <FontAwesomeIcon icon={['fas', 'download']}/></Button>
+            <Button variant="info" href={catalogo}>Iniciar descarga <FontAwesomeIcon icon={['fas', 'download']}/></Button>
             </p>
             <ScrollAnimation animateIn="bounce" duration="2">
               <div className="posicion_jumbotron">
@@ -53,17 +55,17 @@ const Botbar = () => (
         <div className="container border shadow">
           <ScrollAnimation animateIn="bounceInRight" duration="2">
             <div className="renglon m-4">
-              <Image src={m1} thumbnail className="m-2 estilo_img_marcas"/>
+              <Image src={m13} thumbnail className="m-2 estilo_img_marcas"/>
               <Image src={m2} thumbnail className="m-2 estilo_img_marcas"/>
               <Image src={m3} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m4} thumbnail className="m-2 estilo_img_marcas"/>
+              <Image src={m7} thumbnail className="m-2 estilo_img_marcas"/>
             </div>
           </ScrollAnimation>
           <ScrollAnimation animateIn="bounceInLeft" duration="2">
             <div className="renglon m-4">
-              <Image src={m5} thumbnail className="m-2 estilo_img_marcas"/>
+              <Image src={m1} thumbnail className="m-2 estilo_img_marcas"/>
               <Image src={m6} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m7} thumbnail className="m-2 estilo_img_marcas"/>
+              <Image src={m4} thumbnail className="m-2 estilo_img_marcas"/>
               <Image src={m8} thumbnail className="m-2 estilo_img_marcas"/>
             </div>
           </ScrollAnimation>
@@ -77,8 +79,7 @@ const Botbar = () => (
           </ScrollAnimation>
           <ScrollAnimation animateIn="bounceInLeft" duration="2">
             <div className="renglon m-4">
-              <Image src={m13} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m12} thumbnail className="m-2 estilo_img_marcas"/>
+              
             </div>
           </ScrollAnimation>
         </div>

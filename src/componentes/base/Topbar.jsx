@@ -46,6 +46,7 @@ const Topbar = () => (
 
         <Nav.Link href="/sales" className="letras_menu">Ventas</Nav.Link>
         <Nav.Link href="/contact" className="letras_menu">Contacto</Nav.Link>
+        <Nav.Link href="/notice" className="letras_menu">Noticias</Nav.Link>
 
 
         <Nav.Link href="/forrajera" className="boton_forrajera">FORRAJERA</Nav.Link>
