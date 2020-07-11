@@ -133,13 +133,11 @@ export const modificarNoticiasAction = (noticiaData, id) => async (dispatch) => 
 }
 
 //Mejoralo plis
-export const eliminarNoticiasAction = (id, imagen) => async (dispatch) => {
+export const eliminarNoticiasAction = (id) => async (dispatch) => {
     dispatch({
         type: LOADING
     })
     try {
-
-        console.log(imagen)
 
         await db.collection('noticias').doc(id).delete()
         

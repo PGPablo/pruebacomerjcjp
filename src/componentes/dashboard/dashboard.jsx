@@ -5,6 +5,7 @@ import {cerrarSesionAccion} from '../../redux/userDucks'
 
 //Componentes
 import ModuloNoticias from './ModuloNoticias'
+import ModuloSlders from './ModuloSliders'
 import {Row} from 'react-bootstrap'
 
 //Estilo
@@ -67,10 +68,10 @@ const Dashboard = (props) => {
                     : null
                 }
                 {
-                    mod === "actividades" 
+                    mod === "sliders" 
                     ? <div className="container mx-auto border shadow mb-3">
                         <Row className="container mx-auto ">
-                            
+                            <ModuloSlders />
                         </Row>
                       </div>
                     : null

@@ -61,7 +61,7 @@ const ModalNoticias = (props) => {
         }
     }
     const eliminarNoticia = (cerrarModal) => {
-        dispatch(eliminarNoticiasAction(props.noticia.id, imagen))
+        dispatch(eliminarNoticiasAction(props.noticia.id))
         setError("")
         cerrarModal()
     }
