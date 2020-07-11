@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { watchUserChanges, watchActividades } from '../services/firebase'
+import { watchActividades } from '../services/firebase'
 
 
 export const ActividadesContext = React.createContext()

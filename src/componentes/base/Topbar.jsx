@@ -7,6 +7,7 @@ import logo from '../../assets/logocomer2.png'
 
 const Topbar = () => (
 
+  
   <div className="container-fluid border p-2 mb-2 text-right text-xs color_barra">
 
   <Navbar className="contenido_inicial" expand="lg">

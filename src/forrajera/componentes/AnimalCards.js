@@ -11,7 +11,7 @@ export default class AnimalCards extends Component {
     _CrearCards = (ANIMAL) => {
         return(
             <div key={ANIMAL} className="contenedor_card_forrajera">
-                <img src={ANIMALES_CATALOGO[ANIMAL]["src"]} className="imagen_card_forrajera" />
+                <img src={ANIMALES_CATALOGO[ANIMAL]["src"]} className="imagen_card_forrajera" alt="card" />
                 <div className="centrado_card_forrajera">
                     Producto para {ANIMALES_CATALOGO[ANIMAL]["nombre"]}
                 </div>

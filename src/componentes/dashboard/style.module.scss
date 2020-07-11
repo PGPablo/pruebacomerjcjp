@@ -1,6 +1,13 @@
 .titulo_dashboard{
     display: block;
-    color: #173d4f;
+    color: #21686d;
+    text-align: right;
+}
+
+.subtitulo_dashboard{
+    display: block;
+    color: #21686d;
+    margin-top: 1.5rem;
     text-align: center;
 }
 
@@ -28,4 +35,15 @@
 
 .botones_tabla{
     background-color: #FFFFFF
+}
+
+.imagen_tabla{
+    height: 100px;
+    width: auto;
+}
+
+.imagen_modal{
+    height: 100px;
+    width: auto;
+    margin-bottom: 5%;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { watchUserChanges, watchSliders } from '../services/firebase'
+import { watchSliders } from '../services/firebase'
 
 
 export const SlidersContext = React.createContext()

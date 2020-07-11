@@ -12,13 +12,13 @@ import d2 from '../../assets/cards/d2.jpg'
 const About = () => (
   <div className="inlineblock">
     <div className="row ml-1 mr-1">
-      <div className="col-7">
+      <div className="col-12 col-sm-12 col-md-6 col-xl-7">
         <section className="sectionAbout">
           <div className=" mt-4">
             <div id="" className="m-2 py-4 py-lg-6">
               <div id="features" className="container py-4 py-lg-6">
                 <div className="row text-center mt-3">
-                  <div className="col-6">
+                  <div className="col-12 col-sm-12 col-md-12 col-xl-6">
                     <div className="ml-2 container-fluid fondoSeccion">
                       <ScrollAnimation animateIn="bounceInLeft">
                         <h3 className="estilo_letra_Open_Sans_Condensed color_titulo_nosotros">
@@ -27,7 +27,7 @@ const About = () => (
                       </ScrollAnimation>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-12 col-sm-12 col-md-12 col-xl-6">
                     <div className="containter-fluid">
                       <p className="estilo_letra_Montserrat_Alternates color_letras_nosotros">
                         Comprometernos con alcanzar altos niveles de competitividad y liderazgo,
@@ -42,7 +42,7 @@ const About = () => (
               </div>
               <div id="features" className="container py-4 py-lg-6">
                 <div className="row text-center mt-3">
-                  <div className="col-6">
+                  <div className="col-12 col-sm-12 col-md-12 col-xl-6">
                     <div className="ml-2 container-fluid fondoSeccion">
                       <ScrollAnimation animateIn="bounceInLeft">
                         <h3 className="estilo_letra_Open_Sans_Condensed color_titulo_nosotros">
@@ -51,7 +51,7 @@ const About = () => (
                       </ScrollAnimation>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-12 col-sm-12 col-md-12 col-xl-6">
                     <div className="containter-fluid">
                       <p className="estilo_letra_Montserrat_Alternates color_letras_nosotros">
                         Ser una empresa líder, alcanzando altos estándares de profesionalismo,
@@ -65,7 +65,7 @@ const About = () => (
 
               <div id="features" className="container py-4 py-lg-6">
                 <div className="row text-center mt-3">
-                  <div className="col-6">
+                  <div className="col-12 col-sm-12 col-md-12 col-xl-6">
                     <div className="ml-2 container-fluid fondoSeccion">
                       <ScrollAnimation animateIn="bounceInLeft">
                         <h3 className="estilo_letra_Open_Sans_Condensed color_titulo_nosotros">
@@ -74,7 +74,7 @@ const About = () => (
                       </ScrollAnimation>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-12 col-sm-12 col-md-12 col-xl-6">
                     <div className="containter-fluid">
                       <p className="estilo_letra_Montserrat_Alternates color_letras_nosotros">
                         <b>Respeto:</b> Ser considerado con los demás, buscando siempre mantener y cuidar nuestra libertad y las de nuestros compañeros.<br /><br />
@@ -90,7 +90,7 @@ const About = () => (
           </div>
         </section>
       </div>
-      <div className="col-5">
+      <div className="col-12 col-sm-12 col-md-6 col-xl-5">
         <ScrollAnimation animateIn="bounceInRight">
           <Image src={d2} className="tamaño_card_nosotros" />
         </ScrollAnimation>

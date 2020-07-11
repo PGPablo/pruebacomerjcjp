@@ -41,10 +41,8 @@ class Select extends React.Component {
                                 {option.label}
                             </li>
                         )}
-
                     </ul>
                 }
-                
             </div>
         )
     }

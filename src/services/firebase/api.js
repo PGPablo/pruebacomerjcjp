@@ -1,4 +1,4 @@
-import { db, storage } from './setup'
+import { db } from './setup'
 
 //Archivos API
 export async function createNoticia(data) {

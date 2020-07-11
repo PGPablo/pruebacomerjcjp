@@ -10,36 +10,29 @@ import Typography from '@material-ui/core/Typography';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
-import '../../estilos/Carousel.css'
-
-import logo from '../../assets/logocomer2.png'
+import './style.css'
 
 import s1 from '../../assets/carousel/s1.jpg'
-import s2 from '../../assets/carousel/s2.JPG'
-import s3 from '../../assets/carousel/s3.JPG'
-import s4 from '../../assets/carousel/s4.JPG'
+import s2 from '../../assets/carousel/s2.jpg'
+import s3 from '../../assets/carousel/s3.jpg'
+import s4 from '../../assets/carousel/s4.jpg'
 
 import d1 from '../../assets/cards/d1.jpg'
 
 
 const CarouselInicio = () => (
-  <div className="renglon">
+  <div className="row w-100 estilo_renglon">
 
-    <div className="centrar_carousel container-carousel border shadow" >
-      <ScrollAnimation animateIn="rotateInDownLeft" duration="2">
-        <Carousel className=" altura_carousel" interval="6000">
+    <div className="container-carousel border shadow col-sm-11 col-md-11 col-lg-7 col-xl-7" >
+      <ScrollAnimation animateIn="rotateInDownLeft">
+        
+        <Carousel>
           <Carousel.Item>
             <img className="d-block w-100 img_carousel"
               src={s1}
               alt="Third slide"
             />
             <Carousel.Caption>
-                <ScrollAnimation animateIn="bounceInRight" delay="3000">
-                  <img className="img_carousel_contenido"
-                    src={logo}
-                    alt="logo"
-                  />
-                </ScrollAnimation>
                 <h3>Comercializadora de materiales JC & JP</h3>
                 <p>Calidad en nuestros productos.</p>
             </Carousel.Caption>
@@ -77,34 +70,39 @@ const CarouselInicio = () => (
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
+
       </ScrollAnimation>
     </div>
 
+    <div className="col-sm-11 col-md-11 col-lg-4 col-xl-4">
+      <ScrollAnimation animateIn="bounceInRight">
+        <Card className="tamaño_card_inicio">
+          <CardActionArea>
+            <CardMedia
+              className="tamaño_card_imagen_inicio"
+              image={d1}
+              title="Contemplative Reptile"
+            />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="h2" className="estilo_letra_Open_Sans_Condensed">
+                Productos agrícolas
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p" className="estilo_letra_Julius_Sans_One">
+                Contamos con una gran cantidad de productos agrícolas, listos para ser utilizados.
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions >
+            <Button href="/info" size="small" color="primary" className="estilo_letra_Julius_Sans_One">
+              Ver más.
+            </Button>
+          </CardActions>
+        </Card>
+      </ScrollAnimation>
 
-    <ScrollAnimation animateIn="bounceInRight">
-      <Card className="tamaño_card_inicio">
-        <CardActionArea>
-          <CardMedia
-            className="tamaño_card_imagen_inicio"
-            image={d1}
-            title="Contemplative Reptile"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2" className="estilo_letra_Open_Sans_Condensed">
-              Productos agrícolas
-            </Typography>
-            <Typography variant="body2" color="textSecondary" component="p" className="estilo_letra_Julius_Sans_One">
-              Contamos con una gran cantidad de productos agrícolas, listos para ser utilizados.
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-        <CardActions >
-          <Button href="/info" size="small" color="primary" className="estilo_letra_Julius_Sans_One">
-            Ver más.
-          </Button>
-        </CardActions>
-      </Card>
-    </ScrollAnimation>
+    </div>
+
+    
   </div>
 
 )
