@@ -14,6 +14,7 @@ const ModalSliders = (props) => {
 
     const [titulo, setTitulo] = React.useState("")
     const [subtitulo, setSubtitulo] = React.useState("")
+    const [posicion, setPosicion] = React.useState("")
     const [imagen, setImagen] = React.useState("")
     const [accion, setAccion] = React.useState("")
     const [error, setError] = React.useState("")
@@ -23,6 +24,7 @@ const ModalSliders = (props) => {
             setAccion('actualizar')
             setTitulo(props.slider.titulo)
             setSubtitulo(props.slider.subtitulo)
+            setPosicion(props.slider.posicion)
             setImagen(props.slider.imagenurl)
         } else {
 
@@ -30,7 +32,7 @@ const ModalSliders = (props) => {
     }, [props])
 
     const accionFormSlider = (cerrarModal) => {
-        if (!titulo.trim() || !subtitulo.trim() ) {
+        if (!titulo.trim() || !subtitulo.trim() || !posicion.trim()) {
             setError('Alguno de los campos esta vacio')
             return
         }
@@ -42,6 +44,7 @@ const ModalSliders = (props) => {
         const slidersData = {
             titulo: titulo,
             subtitulo: subtitulo,
+            posicion: posicion,
             imagenurl: imagen,
         }
 
@@ -76,7 +79,7 @@ const ModalSliders = (props) => {
                     </div>
                 }
                 <div className="form-group form-row">
-                    <div className="col">
+                    <div className="col-12 mb-4">
                         <input type="text"
                             className="form-control"
                             id="titulo_slider"
@@ -84,7 +87,7 @@ const ModalSliders = (props) => {
                             value={titulo}
                             onChange={e => setTitulo(e.target.value)} />
                     </div>
-                    <div className="col">
+                    <div className="col-12 mb-4">
                         <input type="text"
                             className="form-control"
                             id="subtitulo_slider"
@@ -92,9 +95,17 @@ const ModalSliders = (props) => {
                             value={subtitulo}
                             onChange={e => setSubtitulo(e.target.value)} />
                     </div>
+                    <div className="col-12 mb-4">
+                        <input type="number"
+                            className="form-control"
+                            id="posicion_slider"
+                            placeholder="Posición"
+                            value={posicion}
+                            onChange={e => setPosicion(e.target.value)} />
+                    </div>
                 </div>
 
-                <div className="form-group">
+                <div className="form-group mb-4">
                     <label htmlFor="imagenurl_input">Imagen</label>
                     {
                         accion === 'actualizar' && <div>

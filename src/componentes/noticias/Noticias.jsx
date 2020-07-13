@@ -15,7 +15,7 @@ const Noticias = () => {
     return (
         <div className="container border pt-4">
 
-            <h3 className="text-center titulo_cont_noticias">Noticias.</h3>
+            <h3 className="text-center titulo_cont_noticias">Lo mas relevante en el mundo de la agronomía.</h3>
 
             {noticias ? (noticias.map((row) => {
                 return (
@@ -29,7 +29,7 @@ const Noticias = () => {
 
                             <div className="row">
                                 <div className="col-7">
-                                    <p>{row.contenido}</p>
+                                    <p className="text-justify">{row.contenido}</p>
                                 </div>
                                 <div className="col-5">
                                     <img src={row.imagenurl}

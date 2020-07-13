@@ -50,6 +50,7 @@ const ModuloSliders = () => {
                         <tr>
                             <th>Titulo</th>
                             <th>Subtitulo</th>
+                            <th>Posición</th>
                             <th>Imagen</th>
                             <th>Opciones</th>
                         </tr>
@@ -60,6 +61,7 @@ const ModuloSliders = () => {
                                 <tr key={row.id} >
                                     <td>{row.titulo}</td>
                                     <td>{row.subtitulo}</td>
+                                    <td>{row.posicion}</td>
                                     <td>
                                         <img src={row.imagenurl} alt="..." className={styles.imagen_tabla} />
                                     </td>

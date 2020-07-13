@@ -41,13 +41,16 @@ export const obtenerSlidersAction = () => async (dispatch) => {
     })
 
     try{
-        const data = await db.collection('sliders').get()
+        const data = await db.collection("sliders")
+        .orderBy('posicion')
+        .get()
         const arrayData = data.docs.map(doc => ({ id: doc.id, ...doc.data() }))
         dispatch({
             type: GET_SLIDERS_SUCCESS,
             payload: arrayData
         })
     }catch (e) {
+        console.log(e)
         dispatch({
             type: ERROR_SLIDERS
         })
@@ -69,7 +72,9 @@ export const crearSlidersAction = (slidersData) => async (dispatch) => {
 
         await db.collection('sliders').doc().set(slidersData)
 
-        const data = await db.collection('sliders').get()
+        const data = await db.collection('sliders')
+        .orderBy('posicion')
+        .get()
         const arrayData = data.docs.map(doc => ({ id: doc.id, ...doc.data() }))
 
         dispatch({
@@ -107,10 +112,13 @@ export const modificarSlidersAction = (slidersData, id) => async (dispatch) => {
         await db.collection('sliders').doc(id).update({
             titulo: slidersData.titulo,
             subtitulo: slidersData.subtitulo,
+            posicion: slidersData.posicion,
             imagenurl: imagenURL,
         })
 
-        const data = await db.collection('sliders').get()
+        const data = await db.collection('sliders')
+        .orderBy('posicion')
+        .get()
         const arrayData = data.docs.map(doc => ({ id: doc.id, ...doc.data() }))
 
         dispatch({
@@ -140,7 +148,9 @@ export const eliminarSlidersAction = (id) => async (dispatch) => {
             type: DELETE_SLIDERS_SUCCESS
         })
         
-        const data = await db.collection('sliders').get()
+        const data = await db.collection('sliders')
+        .orderBy('posicion')
+        .get()
         const arrayData = data.docs.map(doc => ({ id: doc.id, ...doc.data() }))
   
         dispatch({
