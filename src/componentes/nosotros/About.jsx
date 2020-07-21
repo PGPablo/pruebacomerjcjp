@@ -5,13 +5,10 @@ import React from 'react'
 import '../../estilos/About.css'
 import { Image } from 'react-bootstrap'
 
-import ScrollAnimation from 'react-animate-on-scroll';
-
 import d2 from '../../assets/cards/d2.jpg'
 
 const About = () => (
-  <div className="inlineblock">
-    <div className="row ml-1 mr-1">
+    <div className="row row_sm ml-1 mr-1">
       <div className="col-12 col-sm-12 col-md-6 col-xl-7">
         <section className="sectionAbout">
           <div className=" mt-4">
@@ -20,11 +17,9 @@ const About = () => (
                 <div className="row text-center mt-3">
                   <div className="col-12 col-sm-12 col-md-12 col-xl-6">
                     <div className="ml-2 container-fluid fondoSeccion">
-                      <ScrollAnimation animateIn="bounceInLeft">
-                        <h3 className="estilo_letra_Open_Sans_Condensed color_titulo_nosotros">
-                          Misión
+                      <h3 className="estilo_letra_Open_Sans_Condensed color_titulo_nosotros">
+                        Misión
                         </h3>
-                      </ScrollAnimation>
                     </div>
                   </div>
                   <div className="col-12 col-sm-12 col-md-12 col-xl-6">
@@ -44,11 +39,9 @@ const About = () => (
                 <div className="row text-center mt-3">
                   <div className="col-12 col-sm-12 col-md-12 col-xl-6">
                     <div className="ml-2 container-fluid fondoSeccion">
-                      <ScrollAnimation animateIn="bounceInLeft">
-                        <h3 className="estilo_letra_Open_Sans_Condensed color_titulo_nosotros">
-                          Visión
+                      <h3 className="estilo_letra_Open_Sans_Condensed color_titulo_nosotros">
+                        Visión
                         </h3>
-                      </ScrollAnimation>
                     </div>
                   </div>
                   <div className="col-12 col-sm-12 col-md-12 col-xl-6">
@@ -67,11 +60,9 @@ const About = () => (
                 <div className="row text-center mt-3">
                   <div className="col-12 col-sm-12 col-md-12 col-xl-6">
                     <div className="ml-2 container-fluid fondoSeccion">
-                      <ScrollAnimation animateIn="bounceInLeft">
-                        <h3 className="estilo_letra_Open_Sans_Condensed color_titulo_nosotros">
-                          Valores
+                      <h3 className="estilo_letra_Open_Sans_Condensed color_titulo_nosotros">
+                        Valores
                         </h3>
-                      </ScrollAnimation>
                     </div>
                   </div>
                   <div className="col-12 col-sm-12 col-md-12 col-xl-6">
@@ -90,19 +81,11 @@ const About = () => (
           </div>
         </section>
       </div>
+
       <div className="col-12 col-sm-12 col-md-6 col-xl-5">
-        <ScrollAnimation animateIn="bounceInRight">
-          <Image src={d2} className="tamaño_card_nosotros" />
-        </ScrollAnimation>
+        <Image src={d2} className="tamaño_imagen_nosotros" />
       </div>
     </div>
-
-
-
-
-
-  </div>
-
 
 )
 

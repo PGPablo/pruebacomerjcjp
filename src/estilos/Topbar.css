@@ -41,5 +41,6 @@
 
 .estilo_boton_dropdown{
   background-color: rgb(255, 255, 255) !important;
-  border-color: #ffffff !important;
+  border-color: #ffffff00 !important;
+  margin-right: 1%;
 }

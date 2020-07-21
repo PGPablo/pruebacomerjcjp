@@ -1,6 +1,6 @@
 import React from "react";
 import '../../estilos/Ventas.css'
-import {Jumbotron, Button, Image}  from 'react-bootstrap'
+import { Jumbotron, Button, Image } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -23,66 +23,85 @@ import catalogo from './catalogo.pdf'
 
 
 const Botbar = () => (
-      <div className="inlineblock">
-        <ScrollAnimation animateIn="bounceInRight">
-          <Jumbotron className="ml-5 mr-5 estilo_jumbotron_ventas">
-            <h1 className="titulo_jumbotron_ventas estilo_letra_Open_Sans_Condensed">
-              Descarga nuestro catalogo de productos.
-            </h1>
-            <p className="texto_jumbotron_ventas estilo_letra_Athiti">
-            Tenemos una variedad de produtos, de los mejores proveedores,
-            seleccionados para el cuidado, uso y complemento de tu actividad agricola.
-            Conoce nuestro catalogo, Si no lo encuentra lo que busca, preguntenos estamos a su
-            disposicion. <b>Te invitamos a que descargues nuestro catalogo.</b>
-            </p>
-            <p>
-            <Button variant="info" href={catalogo}>Iniciar descarga <FontAwesomeIcon icon={['fas', 'download']}/></Button>
-            </p>
-            <ScrollAnimation animateIn="bounce" duration="2">
-              <div className="posicion_jumbotron">
-                <Image src={v1} className=" tamaño_imagen_jumbotron ml-5 mr-5" fluid  />
-              </div>
-            </ScrollAnimation>
-          </Jumbotron>
-        </ScrollAnimation>
+  <div className="inlineblock">
 
-        <div className="renglon center titulo_marcas">
-          <h1 className="estilo_letra_Open_Sans_Condensed w-100">Conoce nuestra galería de marcas disponibles</h1>
+    <Jumbotron className="ml-5 mr-5 estilo_jumbotron_ventas">
+      <h1 className="titulo_jumbotron_ventas estilo_letra_Open_Sans_Condensed">
+        Descarga nuestro catalogo de productos.
+            </h1>
+      <p className="texto_jumbotron_ventas estilo_letra_Athiti">
+        Tenemos una variedad de produtos, de los mejores proveedores,
+        seleccionados para el cuidado, uso y complemento de tu actividad agricola.
+        Conoce nuestro catalogo, Si no lo encuentra lo que busca, preguntenos estamos a su
+            disposicion. <b>Te invitamos a que descargues nuestro catalogo.</b>
+      </p>
+      <p>
+        <Button variant="info" href={catalogo}>Iniciar descarga <FontAwesomeIcon icon={['fas', 'download']} /></Button>
+      </p>
+
+      <div className="posicion_jumbotron">
+        <Image src={v1} className=" tamaño_imagen_jumbotron ml-5 mr-5" fluid />
+      </div>
+    </Jumbotron>
+
+
+
+
+
+    <div className="renglon center titulo_marcas">
+      <h1 className="estilo_letra_Open_Sans_Condensed w-100">Conoce nuestra galería de marcas disponibles</h1>
+    </div>
+    <br />
+
+    <div className="container border">
+      <div className="row">
+
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m13} alt="..." />
         </div>
-        <br />
-        <div className="container border shadow">
-          <ScrollAnimation animateIn="bounceInRight" duration="2">
-            <div className="renglon m-4">
-              <Image src={m13} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m2} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m3} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m7} thumbnail className="m-2 estilo_img_marcas"/>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="bounceInLeft" duration="2">
-            <div className="renglon m-4">
-              <Image src={m1} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m6} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m4} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m8} thumbnail className="m-2 estilo_img_marcas"/>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="bounceInRight" duration="2">
-            <div className="renglon m-4">
-              <Image src={m9} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m10} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m11} thumbnail className="m-2 estilo_img_marcas"/>
-              <Image src={m14} thumbnail className="m-2 estilo_img_marcas"/>
-            </div>
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="bounceInLeft" duration="2">
-            <div className="renglon m-4">
-              
-            </div>
-          </ScrollAnimation>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m2} alt="..." />
         </div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m3} alt="..." />
+        </div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m7} alt="..." />
+        </div>
+
+
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m1} alt="..." />
+        </div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m6} alt="..." />
+        </div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m4} alt="..." />
+        </div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m8} alt="..." />
+        </div>
+
+
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m9} alt="..." />
+        </div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m10} alt="..." />
+        </div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m11} alt="..." />
+        </div>
+        <div className="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+          <img className="estilo_img_marcas" src={m14} alt="..." />
+        </div>
+
+      </div>
     </div>
 
-    )
+  </div>
+
+)
 
 export default Botbar;

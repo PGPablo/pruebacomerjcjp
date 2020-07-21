@@ -20,27 +20,25 @@ export default function ContactUs() {
     <div>
       <div className="container border shadow mt-4">
         <Form onSubmit={sendEmail}>
-          <h2 className="estilo_letra_Cinzel color_titulo">Déjanos tu información, nosotros nos pondremos en contacto.</h2>
+          <h2 className="estilo_letra_Cinzel color_titulo">
+            Déjanos tu información, nosotros nos pondremos en contacto.
+          </h2>
           <Form.Row className="estilo_letra_Gruppo">
             <Form.Group as={Col}>
-              <ScrollAnimation animateIn="headShake" duration="3">
                 <Form.Label>Nombre completo</Form.Label>
-              </ScrollAnimation>
               <Form.Control type="text" placeholder="Nombre completo" name="var_nombre" required/>
             </Form.Group>
             <Form.Group as={Col}>
-              <ScrollAnimation animateIn="headShake" duration="3">
                 <Form.Label>Correo electronico</Form.Label>
-              </ScrollAnimation>
               <Form.Control type="email" placeholder="Email" name="var_correo" required/>
             </Form.Group>
           </Form.Row>
 
           <Form.Row>
             <Form.Group as={Col}>
-              <ScrollAnimation animateIn="headShake" duration="3">
-                <Form.Label className="estilo_letra_Gruppo">¿Quieres dejar algún mensaje? (Opcional)</Form.Label>
-              </ScrollAnimation>
+                <Form.Label className="estilo_letra_Gruppo">
+                  ¿Quieres dejar algún mensaje? (Opcional)
+                </Form.Label>
               <Form.Control className="estilo_letra_Gruppo" placeholder="Mensaje" name="var_mensaje"/>
             </Form.Group>
           </Form.Row>

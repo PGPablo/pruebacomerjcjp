@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 import '../../estilos/Servicios.css'
 
-import d4 from '../../assets/cards/d4.jpg'
+import d4 from '../../assets/cards/d4.png'
 
 import p1 from '../../assets/proyectos/p1.jpg'
 

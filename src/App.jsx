@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import './App.css'
 
 //Base
 import Topbar from './componentes/base/Topbar';
@@ -15,7 +16,6 @@ import ServMantenimiento from './componentes/servicios/ServMantenimiento'
 import Info from './componentes/info/Info'
 import ContactUs from './componentes/contacto/emailjs'
 import Ventas from './componentes/ventas/Ventas'
-import Forrajera from './forrajera/componentes/Forrajera'
 import Noticias from './componentes/noticias/Noticias'
 import LoginForm from './login/loginForm'
 import Dashboard from './componentes/dashboard/dashboard'
@@ -94,7 +94,6 @@ function App() {
                 <Route path="/info" component={Info} />
                 <Route path="/contact" component={ContactUs} />
                 <Route path="/sales" component={Ventas} />
-                <Route path="/forrajera" component={Forrajera} />
                 <Route path="/notice" component={Noticias} />
                 <Route path="/login" component={LoginForm} />
                 <RutaPrivada path="/dashboard" component={Dashboard} />
@@ -104,13 +103,11 @@ function App() {
             </Router>
           </div>
         ) : (
-            <div className="container border m-5 text-center">
-              <div className="spinner-grow text-info m-5" role="status">
+            <div className="container text-center">
+              <div className="spinner-grow posicion_spinner text-info mt-5 mb-5" role="status">
                 <span className="sr-only">Loading...</span>
               </div>
             </div>
-
-
           )
       }
 

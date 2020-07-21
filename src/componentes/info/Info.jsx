@@ -1,7 +1,5 @@
 import React from 'react'
-import {Carousel, Image}  from 'react-bootstrap'
-
-import ScrollAnimation from 'react-animate-on-scroll';
+import { Carousel, Image } from 'react-bootstrap'
 
 import '../../estilos/Info.css'
 import c21 from '../../assets/carousel/c21.jpg'
@@ -18,7 +16,6 @@ const Info = () => (
       <h4 className="subtitulo_info estilo_letra_Athiti">Buscamos participar, capacitarnos y seguir actualizandonos en el sector agroalimentario, ademas de incorporar a nuestros clientes a nuestra familia JC & JP.</h4>
     </div> <br />
     <div className="estilo_carousel_dos">
-    <ScrollAnimation animateIn="rollIn" animateOut="rollOut">
       <Carousel className="estilo_carousel_dos m-2">
         <Carousel.Item>
           <img
@@ -66,46 +63,47 @@ const Info = () => (
         </Carousel.Item>
 
       </Carousel>
-    </ScrollAnimation>
 
 
 
 
       <div className="m-4 border shadow centrar_imagenes_info">
-        <Image src={c21} className="ml-4 mr-4 tamaño_im_thumbnail"/>
-        <Image src={c22} className="ml-4 mr-4 tamaño_im_thumbnail"/>
-        <Image src={c23} className="ml-4 mr-4 tamaño_im_thumbnail"/>
-        <Image src={c24} className="ml-4 mr-4 tamaño_im_thumbnail"/>
+        <Image src={c21} className="ml-4 mr-4 tamaño_im_thumbnail" />
+        <Image src={c22} className="ml-4 mr-4 tamaño_im_thumbnail" />
+        <Image src={c23} className="ml-4 mr-4 tamaño_im_thumbnail" />
+        <Image src={c24} className="ml-4 mr-4 tamaño_im_thumbnail" />
       </div>
     </div><br /><br />
 
 
     <div className="container">
-
-    <ScrollAnimation animateIn="bounceInRight">
       <h2 className="titulo_info w-100 estilo_letra_Open_Sans_Condensed">Logros y actividades</h2> <br />
-    </ScrollAnimation>
-    <ScrollAnimation animateIn="bounceInLeft">
+
+
       <h4 className="subtitulo_info estilo_letra_Athiti">
         Buscamos participar, capacitarnos y seguir actualizandonos en
         el sector agroalimentario, ademas de incorporar a nuestros clientes
         a nuestra familia JC & JP.
       </h4><br />
-    </ScrollAnimation>
 
-    <ScrollAnimation animateIn="bounceInLeft">
       <div className="row">
-        <iframe width="560" title="expo_agraria" height="315" src="https://www.youtube.com/embed/8zR_ksPd7p8"
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen className="col-6" ></iframe>
-
-          <h5 className="col-6 border shadow texto_info estilo_letra_Athiti" >Asistencia a Expo Agroalimentaria
-              Llevadas a cabo en 2015, 2017, 2018 y 2019.
-              Asistencia a 6to Foro Agroalimentario que llevo acabo el consejo estatal, INFORUM Irapuato, GTO.
-              El reajuste de los mercados agropecuarios con la renegociación del TLCAN”, Septiembre 2017.
+        <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <iframe title="expo_agraria" height="315" src="https://www.youtube.com/embed/8zR_ksPd7p8"
+            frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            className="w-100" >
+          </iframe>
+        </div>
+        <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+          <h5 className="m-1 estilo_letra_Athiti" >Asistencia a Expo Agroalimentaria
+            Llevadas a cabo en 2015, 2017, 2018 y 2019.
+            Asistencia a 6to Foro Agroalimentario que llevo acabo el consejo estatal, INFORUM Irapuato, GTO.
+            El reajuste de los mercados agropecuarios con la renegociación del TLCAN”, Septiembre 2017.
           </h5>
         </div>
-      </ScrollAnimation>
+
+
+
+      </div>
 
     </div>
 

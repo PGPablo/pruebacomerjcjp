@@ -20,18 +20,18 @@ const Noticias = () => {
             {noticias ? (noticias.map((row) => {
                 return (
                         <div className="jumbotron ml-4 mr-4" key={row.id}>
-                            <h1 className="display-4"> {row.titulo} </h1>
+                            <h2 className=""> {row.titulo} </h2>
                             <p className="lead"> {row.subtitulo} </p>
-                            <span class="badge badge-dark">
+                            <span className="badge badge-dark">
                                 {row.autor} - {moment(row.fecha).format('DD/MM/YYYY hh:mm a')}
                             </span>
                             <hr className="my-4" />
 
                             <div className="row">
-                                <div className="col-7">
+                                <div className="col-sm-12 col-md-12 col-lg-7 col-xl-7">
                                     <p className="text-justify">{row.contenido}</p>
                                 </div>
-                                <div className="col-5">
+                                <div className="col-sm-12 col-md-12 col-lg-5 col-xl-5">
                                     <img src={row.imagenurl}
                                         alt="..."
                                         className="tamaño_img_noticia" />

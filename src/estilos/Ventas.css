@@ -1,5 +1,5 @@
 .estilo_jumbotron_ventas{
-    background-color: rgb(214, 248, 249) !important;
+    background-color: #f8ffff !important;
 }
 
 .posicion_jumbotron{
@@ -25,10 +25,12 @@
   text-align: center;
 }
 
+
 .estilo_img_marcas{
-  width: 23%;
-  height: 200px !important;
-  border: 1px solid #d9f8ff !important;
+  display: block;
+  margin: 5vh auto;
+  max-width: 65%;
+  height: 90px;
 }
 
 @media only screen and (max-width: 700px) {
